@@ -1,0 +1,12 @@
+# get the word from the user
+word = input("Enter a word: ")
+
+# reverse the word
+reverse = word[::-1]
+
+# print the reversed word
+print(reverse)
+
+
+Enter a word: Edyoda
+adoydE
