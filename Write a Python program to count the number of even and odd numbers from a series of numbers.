@@ -1,0 +1,30 @@
+# define a function to count the number of even and odd numbers
+def count_even_odd(numbers):
+  # initialize the counters for even and odd numbers
+  even_count = 0
+  odd_count = 0
+  
+  # loop through the numbers
+  for num in numbers:
+    # if the number is even, increment the even count
+    if num % 2 == 0:
+      even_count += 1
+    # if the number is odd, increment the odd count
+    else:
+      odd_count += 1
+      
+  # return the count of even and odd numbers
+  return even_count, odd_count
+
+# test the function with the sample numbers
+numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+even_count, odd_count = count_even_odd(numbers)
+
+# print the results
+print("Number of even numbers:", even_count)
+print("Number of odd numbers:", odd_count)
+
+
+The output of this program will be:
+Number of even numbers: 4
+Number of odd numbers: 5
